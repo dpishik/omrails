@@ -1,5 +1,6 @@
 <h2>Sign in</h2>
 
+<<<<<<< HEAD
 <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: 'form-horizontal' }) do |f| %>
 
 	
@@ -8,6 +9,17 @@
 	<%= f.input :remember_me, as: :boolean %>
 
   <div class="form-actions">
+=======
+<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: 'form-horizonal'}) do |f| %>
+
+	<%= f.error_notification %>
+
+  <%= f.input :email %>
+  <%= f.input :password %>
+  <%= f.input :remember_me, as: :boolean %>
+
+  <div class="form_actions">
+>>>>>>> 583a11f8f85f9e3d605b1289bd7c754245458579
   	<%= f.submit "Sign in", class: "btn btn-primary" %>
   </div>
 <% end %>

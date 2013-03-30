@@ -35,7 +35,11 @@ Omrails::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
+<<<<<<< HEAD
   # Needed for Devise
+=======
+  # Needed to use devise gem
+>>>>>>> 583a11f8f85f9e3d605b1289bd7c754245458579
   # In production, :host should be set to the actual host of your application.
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end

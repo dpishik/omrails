@@ -59,7 +59,11 @@ module Omrails
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+<<<<<<< HEAD
     # Required for Devise on Heroku
+=======
+    # required for devise on heroku
+>>>>>>> 583a11f8f85f9e3d605b1289bd7c754245458579
     config.assets.initialize_on_precompile = false
   end
 end

@@ -1,15 +1,29 @@
 <h2>Sign up</h2>
 
 <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), html: {class: 'form-horizontal'}) do |f| %>
+<<<<<<< HEAD
   <%= f.error_notification %>
 
+=======
+
+  <%= f.error_notification %>
+
+  <%= f.input :name %>
+>>>>>>> 583a11f8f85f9e3d605b1289bd7c754245458579
   <%= f.input :email %>
   <%= f.input :password %>
   <%= f.input :password_confirmation %>
 
+<<<<<<< HEAD
   <div class+"form-actions">
   	<%= f.submit "Sign up", class: "btn btn-primary" %>
   </div>
+=======
+  <div class="form-actions">
+  	<%= f.submit "Sign up", class: "btn btn-primary" %>
+  </div>
+
+>>>>>>> 583a11f8f85f9e3d605b1289bd7c754245458579
 <% end %>
 
 <%= render "devise/shared/links" %>
