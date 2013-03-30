@@ -1,15 +1,8 @@
 <h2>Edit <%= resource_name.to_s.humanize %></h2>
 
-<<<<<<< HEAD
 <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, class: 'form-horizontal' }) do |f| %>
   <%= f.error_notification %>
 
-=======
-<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: 'form-horizonal'}) do |f| %>
-
-  <%= f.error_notification %>
-  
->>>>>>> 583a11f8f85f9e3d605b1289bd7c754245458579
   <%= f.input :name %>
   <%= f.input :email %>
   <%= f.input :password, label: "New Password", autocomplete: "off" %>
