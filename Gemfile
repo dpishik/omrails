@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'jquery-rails'
+gem 'devise'
 
 
 # HEY DENNIS: Adding this code to make it work with heroku
@@ -27,5 +29,3 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails'
