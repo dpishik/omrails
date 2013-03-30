@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
 gem 'devise'
+gem 'simple_form'
 
 
 # HEY DENNIS: Adding this code to make it work with heroku
